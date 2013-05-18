@@ -1,0 +1,10 @@
+language: ruby
+rvm: 1.9.3
+before_script:
+  - bundle exec rake clean
+script: 
+  - bundle exec rake precommit:mw
+after_script:
+  - bundle install
+  - bundle exec rake bootstrap
+  - bundle exec rake droid:build ios:build web:build
