@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:8
+-keep class com.calatrava_spike.Bootstrap { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.calatrava_spike.Calatrava_spike { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.calatrava_spike.ConversionForm { <init>(...); }
+
