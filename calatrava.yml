@@ -1,0 +1,6 @@
+---
+:project_name: calatrava_spike
+:platforms:
+- ios
+- droid
+- web

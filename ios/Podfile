@@ -1,0 +1,5 @@
+platform :ios, '5.0'
+
+xcodeproj 'calatrava_spike.xcodeproj'
+
+pod 'calatrava', :git => 'https://github.com/calatrava/calatrava-ios', :commit => '308c74a580e3408785be5fb50ac9254926c2654e'
