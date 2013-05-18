@@ -1,0 +1,15 @@
+PODS:
+  - calatrava (0.3.2)
+
+DEPENDENCIES:
+  - calatrava (from `https://github.com/calatrava/calatrava-ios`, commit `308c74a580e3408785be5fb50ac9254926c2654e`)
+
+EXTERNAL SOURCES:
+  calatrava:
+    :commit: 308c74a580e3408785be5fb50ac9254926c2654e
+    :git: https://github.com/calatrava/calatrava-ios
+
+SPEC CHECKSUMS:
+  calatrava: c08acb2aeb1a3305531e036774d89d3dd38a73ee
+
+COCOAPODS: 0.19.1

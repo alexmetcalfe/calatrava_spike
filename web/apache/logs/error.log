@@ -1,0 +1,162 @@
+[Sat May 18 13:37:05 2013] [info] Init: Initialized OpenSSL library
+[Sat May 18 13:37:05 2013] [info] Init: Seeding PRNG with 0 bytes of entropy
+[Sat May 18 13:37:05 2013] [info] Init: Generating temporary RSA private keys (512/1024 bits)
+[Sat May 18 13:37:05 2013] [info] Init: Generating temporary DH parameters (512/1024 bits)
+[Sat May 18 13:37:05 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat May 18 13:37:05 2013] [info] Init: Initializing (virtual) servers for SSL
+[Sat May 18 13:37:05 2013] [debug] ssl_engine_init.c(467): Creating new SSL context (protocols: SSLv2, SSLv3, TLSv1)
+[Sat May 18 13:37:05 2013] [info] mod_ssl/2.2.22 compiled against Server: Apache/2.2.22, Library: OpenSSL/0.9.8r
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module ssl_module
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module proxy_module
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module proxy_http_module
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module headers_module
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module log_config_module
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module mime_module
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module dir_module
+[Sat May 18 13:37:05 2013] [debug] mod_so.c(246): loaded module alias_module
+httpd: Could not reliably determine the server's fully qualified domain name, using Alexs-MacBook-Pro.local for ServerName
+[Sat May 18 13:37:05 2013] [info] Init: Initialized OpenSSL library
+[Sat May 18 13:37:05 2013] [info] Init: Seeding PRNG with 0 bytes of entropy
+[Sat May 18 13:37:05 2013] [info] Init: Generating temporary RSA private keys (512/1024 bits)
+[Sat May 18 13:37:05 2013] [info] Init: Generating temporary DH parameters (512/1024 bits)
+[Sat May 18 13:37:05 2013] [info] Init: Initializing (virtual) servers for SSL
+[Sat May 18 13:37:05 2013] [debug] ssl_engine_init.c(467): Creating new SSL context (protocols: SSLv2, SSLv3, TLSv1)
+[Sat May 18 13:37:05 2013] [info] mod_ssl/2.2.22 compiled against Server: Apache/2.2.22, Library: OpenSSL/0.9.8r
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44183 for worker http://localhost:8081/api
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44182 for worker http://localhost:8081/api
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44183 for (localhost)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44183 for worker proxy:reverse
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44182 for (localhost)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44183 for (*)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44182 for worker proxy:reverse
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44182 for (*)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44185 for worker http://localhost:8081/api
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44184 for worker http://localhost:8081/api
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44185 for (localhost)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44184 for (localhost)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44185 for worker proxy:reverse
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44184 for worker proxy:reverse
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44185 for (*)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44184 for (*)
+[Sat May 18 13:37:05 2013] [notice] Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8r configured -- resuming normal operations
+[Sat May 18 13:37:05 2013] [info] Server built: Dec  9 2012 18:57:18
+[Sat May 18 13:37:05 2013] [debug] prefork.c(1023): AcceptMutex: flock (default: flock)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44186 for worker http://localhost:8081/api
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44186 for (localhost)
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44186 for worker proxy:reverse
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:05 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44186 for (*)
+[Sat May 18 13:37:14 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44187 for worker http://localhost:8081/api
+[Sat May 18 13:37:14 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:14 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44187 for (localhost)
+[Sat May 18 13:37:14 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44187 for worker proxy:reverse
+[Sat May 18 13:37:14 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:14 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44187 for (*)
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44189 for worker http://localhost:8081/api
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44188 for worker http://localhost:8081/api
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44189 for (localhost)
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44188 for (localhost)
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44189 for worker proxy:reverse
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44188 for worker proxy:reverse
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44189 for (*)
+[Sat May 18 13:37:15 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44188 for (*)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44190 for worker http://localhost:8081/api
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44190 for (localhost)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44190 for worker proxy:reverse
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44190 for (*)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44191 for worker http://localhost:8081/api
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44191 for (localhost)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44191 for worker proxy:reverse
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44191 for (*)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44192 for worker http://localhost:8081/api
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44193 for worker http://localhost:8081/api
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44192 for (localhost)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44192 for worker proxy:reverse
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44192 for (*)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44193 for (localhost)
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44193 for worker proxy:reverse
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:16 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44193 for (*)
+[Sat May 18 13:37:30 2013] [error] [client ::1] File does not exist: /Users/alex/dev/work/calatrava/calatrava/calatrava_spike/web/apache/public/favicon.ico
+[Sat May 18 13:37:31 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44195 for worker http://localhost:8081/api
+[Sat May 18 13:37:31 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:37:31 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44195 for (localhost)
+[Sat May 18 13:37:31 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44195 for worker proxy:reverse
+[Sat May 18 13:37:31 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:37:31 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44195 for (*)
+[Sat May 18 13:39:06 2013] [info] Init: Initialized OpenSSL library
+[Sat May 18 13:39:06 2013] [info] Init: Seeding PRNG with 0 bytes of entropy
+[Sat May 18 13:39:06 2013] [info] Init: Generating temporary RSA private keys (512/1024 bits)
+[Sat May 18 13:39:06 2013] [info] Init: Generating temporary DH parameters (512/1024 bits)
+[Sat May 18 13:39:06 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat May 18 13:39:06 2013] [info] Init: Initializing (virtual) servers for SSL
+[Sat May 18 13:39:06 2013] [debug] ssl_engine_init.c(467): Creating new SSL context (protocols: SSLv2, SSLv3, TLSv1)
+[Sat May 18 13:39:06 2013] [info] mod_ssl/2.2.22 compiled against Server: Apache/2.2.22, Library: OpenSSL/0.9.8r
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module ssl_module
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module proxy_module
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module proxy_http_module
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module headers_module
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module log_config_module
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module mime_module
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module dir_module
+[Sat May 18 13:39:06 2013] [debug] mod_so.c(246): loaded module alias_module
+httpd: Could not reliably determine the server's fully qualified domain name, using Alexs-MacBook-Pro.local for ServerName
+[Sat May 18 13:39:06 2013] [info] Init: Initialized OpenSSL library
+[Sat May 18 13:39:06 2013] [info] Init: Seeding PRNG with 0 bytes of entropy
+[Sat May 18 13:39:06 2013] [info] Init: Generating temporary RSA private keys (512/1024 bits)
+[Sat May 18 13:39:06 2013] [info] Init: Generating temporary DH parameters (512/1024 bits)
+[Sat May 18 13:39:06 2013] [info] Init: Initializing (virtual) servers for SSL
+[Sat May 18 13:39:06 2013] [debug] ssl_engine_init.c(467): Creating new SSL context (protocols: SSLv2, SSLv3, TLSv1)
+[Sat May 18 13:39:06 2013] [info] mod_ssl/2.2.22 compiled against Server: Apache/2.2.22, Library: OpenSSL/0.9.8r
+[Sat May 18 13:39:06 2013] [warn] pid file web/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44347 for worker http://localhost:8081/api
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44347 for (localhost)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44347 for worker proxy:reverse
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44347 for (*)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44348 for worker http://localhost:8081/api
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44348 for (localhost)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44348 for worker proxy:reverse
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44348 for (*)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44349 for worker http://localhost:8081/api
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44349 for (localhost)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44349 for worker proxy:reverse
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44349 for (*)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44350 for worker http://localhost:8081/api
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44350 for (localhost)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44350 for worker proxy:reverse
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44350 for (*)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 0 in child 44351 for worker http://localhost:8081/api
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker http://localhost:8081/api already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 0 in child 44351 for (localhost)
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1818): proxy: grabbed scoreboard slot 1 in child 44351 for worker proxy:reverse
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1837): proxy: worker proxy:reverse already initialized
+[Sat May 18 13:39:06 2013] [debug] proxy_util.c(1934): proxy: initialized single connection worker 1 in child 44351 for (*)
+[Sat May 18 13:39:06 2013] [notice] Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8r configured -- resuming normal operations
+[Sat May 18 13:39:06 2013] [info] Server built: Dec  9 2012 18:57:18
+[Sat May 18 13:39:06 2013] [debug] prefork.c(1023): AcceptMutex: flock (default: flock)
+[Sat May 18 13:39:10 2013] [info] removed PID file web/apache/logs/httpd.pid (pid=44339)
+[Sat May 18 13:39:10 2013] [notice] caught SIGTERM, shutting down
